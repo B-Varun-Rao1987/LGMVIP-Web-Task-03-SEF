@@ -1,0 +1,427 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+/* img{
+    max-width:100%;
+} */
+
+body{
+    font-family: Arial;
+    color:#333;;
+}
+
+header{
+    padding:50px;
+    background-color: cornflowerblue;
+    text-align: center;
+    color:white;
+    margin-bottom: 20px;
+}
+main{
+    width:100%;
+    padding:20px;
+    /* margin:auto; */
+    display:flex;
+    justify-content: space-between;
+}
+
+main form{
+    width:40%;
+}
+main article{
+    width:55%;
+}
+h1,h2,h3,h4,p{
+    margin-bottom:1em;
+}
+#title{
+    text-align: center;
+}
+
+label{
+    display:block;
+    margin-bottom:.5em;
+}
+
+input,textarea,#student_details_form button{
+    display:block;
+    width:100%;
+    margin-bottom:1em;
+    border:1px solid #666;
+    padding:10px;
+    box-sizing: border-box;
+}
+
+.card{
+    padding:20px;
+    background-color: #efefef;
+    margin-bottom:20px;
+}
+
+.gen{
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    /* flex-direction: column; */
+}
+.list{
+    display: flex;
+    /* width: 60%; */
+    flex-direction: column;
+}
+
+.listItem{
+    display: flex;
+    position:relative;
+}
+.listItem label{
+    margin-right:10px;
+}
+.listItem input{
+    position: absolute;
+    right:-40px;
+}
+
+/* skill Styles  */
+
+.skillAdd{
+    width:100%;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative; */
+}
+
+.skillInput{
+    display: flex;
+    justify-content: center;
+    /* padding-left:40px; */
+    margin-bottom:0px;
+    align-items: center;
+}
+
+#skills{
+    padding:5px;
+    font-size:14px;
+    margin-right:6px;
+    margin-bottom:0px;
+    border-radius:3px;
+    /* border:none; */
+    /* height:21px; */
+    padding:10px;
+    width:100%;
+}
+
+.addBtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:30px;
+    width:30px;
+}
+
+.delBtn{
+    width:100%;
+    height:100%;
+}
+
+.plus{
+    height:100%;
+    width:100%;
+    text-decoration: none;
+}
+
+.skillList{
+    width:100%;
+    /* position: absolute; */
+    /* top:5px;
+    left:0px; */
+    margin-top:5px;
+    margin-bottom:1em;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.skillList li{
+    /* width:40px;
+    height:30px; */
+    padding:4px 9px;
+    padding-right: 0px;
+    margin-top:5px;
+    margin-right:4px;
+    background-color: #eae4e4;
+    color:#2e2a2a; 
+    display: flex;
+    align-items: center;
+    border-radius: 4px;
+}
+
+
+.listItem{
+    margin-right:10px;
+}
+
+.remList{
+    height:18px;
+    width:18px;
+    text-decoration: none;
+    margin-right:4px;
+    cursor:pointer;
+}
+
+/* article animation starts */
+
+.container{
+    width:96%;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding-bottom: 20px; */
+}
+
+.enrollList{
+    width:96%;
+    margin-bottom:0;
+}
+
+.enrollList .heading{
+    display: flex;
+    /* justify-content: space-between; */
+    align-items:center;
+    margin-bottom:0;
+}
+
+.enrollList .heading h2{
+    margin-bottom:0px;
+    padding-bottom:3px;
+    text-align: center;
+    border:2px solid black;
+    font-size: 20px;
+}
+
+.enrollList .heading h2:first-of-type{
+    width:70%;
+    border-right:0px;
+}
+.enrollList .heading h2:last-of-type{
+    width:30%;
+}
+
+
+
+
+.description{
+    height: 100%;
+    width:70%;
+        /* margin-bottom: 10px; */
+}
+
+.description h2{
+    background-color: #4e29a3;
+    color:white;
+}
+
+.details{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    padding-left:5px;
+    padding-top:10px;
+    padding-bottom:35px;
+}
+
+.details p{
+    margin-bottom:3px;
+}
+
+.skills{
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 15px;
+}
+
+.skills span{
+    margin-right:5px;
+}
+
+.image{
+    display: flex;
+    width:30%;
+    justify-content: center;
+    align-items: center;
+    height:100%;
+    padding:5px 5px;
+}
+
+.image h2{
+    background-color: #6a46c0;
+}
+
+.image img{
+    display: block;
+    height:95%;
+    width:80%;
+    margin:0 auto;
+}
+
+
+
+.description,.image{
+    border-top:0px;
+    border-left:2px solid black;
+    border-right:2px solid black;
+    border-bottom:0px;
+}
+
+.description:first-of-type,.image:first-of-type,
+.description:last-of-type,.image:last-of-type{
+    border-bottom: 2px solid black;
+}
+
+.description{
+    border-right:0px;
+}
+
+/* .image{
+    border-left:2px solid black;
+    border-right:2px solid black;
+} */
+
+.details{
+    position: relative;
+}
+
+.removeBtn{
+    padding:3px 7px;
+    background-color: #e1e1ed;
+    text-decoration: none;
+    color:black;
+    border:2px solid black;
+    text-align: center;
+    position: absolute;
+    left:5px;
+    bottom:5px;
+    border-radius:3px;
+    transition:background-color 500ms;
+}
+
+.removeBtn:hover{
+    background-color: #ceceda;
+}
+
+/* article animation ends */
+
+.cp-right{
+    position: absolute;
+    top:0px;
+    right:2px;
+    font-size: 15px;
+    height:35px;
+    width:100%;
+    text-align:right;
+    margin-top:2px;
+    margin-right:2px;
+    /* display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row-reverse; */
+}
+
+.cp-right-tag{
+    margin-top:2px;
+    margin-right:2px;
+    color:rgb(234, 233, 233);
+}
+
+
+/* MEDIA-QUERIES */
+
+@media only screen and (max-width: 1010px) {
+    main{
+        flex-direction: column;
+    }
+    main form,main article{
+        width:96%;
+    }
+    article{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top:30px;
+    }
+    #student_container{
+        width:106%;
+    }
+    .description{
+        width:75%;
+    }
+    .image{
+        width:25%;
+    }
+    .enrollList .heading h2:first-of-type {
+        width:75%;
+    }
+    .enrollList .heading h2:last-of-type {
+        width:25%;
+    }
+    header{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    header h1{
+        height:100%;
+    }
+    .cp-right-tag{
+        font-size:15px;    
+    }
+}
+
+@media only screen and (max-width: 880px) {
+    .cp-right-tag{
+        font-size:12px;
+    }
+}
+
+@media only screen and (max-width: 555px) {
+    .enrollList .heading h2{
+        font-size:18px;
+    }
+    main article{
+        width:100%;
+    }
+    #student_container{
+        width:105%;
+    }
+    .details p,.skills span,.removeBtn{
+        font-size:14px;
+    }
+    .image, .enrollList .heading h2:last-of-type{
+        width:36%;
+    }
+    header{
+        width:100%;
+        padding:25px;
+    }
+    header h1{
+        font-size: 23px;
+    }
+    .cp-right-tag{
+        font-size:10px;    
+    }
+}
+
+@media only screen and (max-width: 440px) {
+    .image,.enrollList .heading h2:last-of-type {
+        width:40%;
+    }
+    header h1{
+        font-size: 23px;
+    }
+}
