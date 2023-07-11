@@ -4,10 +4,6 @@
     box-sizing: border-box;
 }
 
-/* img{
-    max-width:100%;
-} */
-
 body{
     font-family: Arial;
     color:#333;;
@@ -23,7 +19,6 @@ header{
 main{
     width:100%;
     padding:20px;
-    /* margin:auto; */
     display:flex;
     justify-content: space-between;
 }
@@ -65,11 +60,9 @@ input,textarea,#student_details_form button{
     width:100%;
     display: flex;
     justify-content: space-between;
-    /* flex-direction: column; */
 }
 .list{
     display: flex;
-    /* width: 60%; */
     flex-direction: column;
 }
 
@@ -89,17 +82,11 @@ input,textarea,#student_details_form button{
 
 .skillAdd{
     width:100%;
-    /* display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    position: relative; */
 }
 
 .skillInput{
     display: flex;
     justify-content: center;
-    /* padding-left:40px; */
     margin-bottom:0px;
     align-items: center;
 }
@@ -110,8 +97,6 @@ input,textarea,#student_details_form button{
     margin-right:6px;
     margin-bottom:0px;
     border-radius:3px;
-    /* border:none; */
-    /* height:21px; */
     padding:10px;
     width:100%;
 }
@@ -137,9 +122,6 @@ input,textarea,#student_details_form button{
 
 .skillList{
     width:100%;
-    /* position: absolute; */
-    /* top:5px;
-    left:0px; */
     margin-top:5px;
     margin-bottom:1em;
     display: flex;
@@ -147,8 +129,6 @@ input,textarea,#student_details_form button{
 }
 
 .skillList li{
-    /* width:40px;
-    height:30px; */
     padding:4px 9px;
     padding-right: 0px;
     margin-top:5px;
@@ -181,7 +161,6 @@ input,textarea,#student_details_form button{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* padding-bottom: 20px; */
 }
 
 .enrollList{
@@ -191,7 +170,6 @@ input,textarea,#student_details_form button{
 
 .enrollList .heading{
     display: flex;
-    /* justify-content: space-between; */
     align-items:center;
     margin-bottom:0;
 }
@@ -212,13 +190,9 @@ input,textarea,#student_details_form button{
     width:30%;
 }
 
-
-
-
 .description{
     height: 100%;
     width:70%;
-        /* margin-bottom: 10px; */
 }
 
 .description h2{
@@ -270,8 +244,6 @@ input,textarea,#student_details_form button{
     margin:0 auto;
 }
 
-
-
 .description,.image{
     border-top:0px;
     border-left:2px solid black;
@@ -287,11 +259,6 @@ input,textarea,#student_details_form button{
 .description{
     border-right:0px;
 }
-
-/* .image{
-    border-left:2px solid black;
-    border-right:2px solid black;
-} */
 
 .details{
     position: relative;
@@ -327,10 +294,6 @@ input,textarea,#student_details_form button{
     text-align:right;
     margin-top:2px;
     margin-right:2px;
-    /* display:flex;
-    justify-content: flex-start;
-    align-items: center;
-    flex-direction: row-reverse; */
 }
 
 .cp-right-tag{
